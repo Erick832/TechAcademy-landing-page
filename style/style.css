@@ -4,6 +4,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: white;
+  /* background: -webkit-linear-gradient(left, red, yellow, blue); */
+}
 a {
   font-family: "Rubik", sans-serif;
   font-size: 12px;
@@ -15,13 +19,13 @@ header {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  background-color: #ff6f91;
+  background-color: #7a87ff;
   padding: 15px 20px;
 }
 .img-logo {
   cursor: pointer;
   margin-right: auto;
-  width: 120px;
+  width: 130px;
 }
 .nav-links {
   list-style: none;
@@ -30,14 +34,14 @@ header {
   display: inline-block;
   padding: 8px 16px;
   border-radius: 20px;
-  background-color: #ffc75f;
+  background-color: #4356ff;
   margin: 0px 8px;
 }
 .nav-links li a {
   transition: all 0.5s ease 0;
 }
 .nav-links li a:hover {
-  color: #d65db1;
+  color: yellow;
   font-size: 14px;
   font-weight: bold;
 }
@@ -57,4 +61,51 @@ header {
   left: 535px;
   top: 20px;
   color: gray;
+}
+.img-1 {
+  padding: 25px;
+  width: 500px;
+  margin: 0 10px;
+}
+.home,
+.section-objetives {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-home {
+  width: 500px;
+  background-color: white;
+  margin: 0 50px;
+}
+.div-button {
+  margin: 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.div-home h1,
+p {
+  font-family: "Rubik", sans-serif;
+  color: #000;
+  text-align: center;
+  padding: 10px 0px;
+}
+button {
+  color: #fff;
+  background-color: #4356ff;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px 30px;
+  font-family: "Rubik", sans-serif;
+  font-size: 12px;
+}
+button:hover {
+  color: yellow;
+  font-size: 14px;
+  font-weight: bold;
+}
+.div-objetives {
+  background-color: red;
 }
