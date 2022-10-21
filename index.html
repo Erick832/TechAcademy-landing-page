@@ -6,16 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style/style.css" />
+    <script src="https://kit.fontawesome.com/5962d33bdd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
   </head>
   <body>
     <header>
-      <img class="img-logo" src="images/logo-tech.png" alt="logo tech academy" />
-      <div class="div-search">
-        <i class="material-icons">search</i>
-        <input type="text" placeholder="Buscar" />
-      </div>
-      <nav class="nav-links">
+      <nav class="nav-link">
+        <img class="img-logo" src="images/logo-tech.png" alt="logo tech academy" />
+        <div class="div-search">
+          <i id="icon-search" class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Buscar" />
+        </div>
+        <button class="button-header">
+          <i class="fa-solid fa-bars"></i>
+        </button>
         <ul>
           <li><a href="#">Objetivos</a></li>
           <li><a href="#">Beneficios</a></li>
@@ -24,7 +28,7 @@
         </ul>
       </nav>
     </header>
-    <main class="home">
+    <main class="main-home">
       <div class="div-home">
         <h1>Bienvenido a la mejor academia virtual</h1>
         <p>
@@ -34,7 +38,7 @@
         <p style="font-weight: bold; font-size: 16px">¡Da el primer paso!</p>
 
         <div class="div-button">
-          <button>Registrate</button>
+          <button class="button-body">Registrate</button>
         </div>
       </div>
       <img class="img-1" src="images/img-1.svg" alt="" />
