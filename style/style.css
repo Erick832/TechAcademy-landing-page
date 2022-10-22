@@ -8,7 +8,7 @@ body {
   /* background-color: white; */
   background-image: url(../images/background.jpg);
   background-size: 1000px;
-  padding-top: 60px;
+  margin-top: 60px;
 }
 header {
   position: fixed;
@@ -32,7 +32,22 @@ footer {
   width: 100%;
   background-color: #3b3e69;
 }
-
+hr {
+  border: none;
+}
+footer h3 {
+  padding: 15px;
+  color: white;
+}
+footer p {
+  padding: 15x;
+  color: white;
+}
+#id-home {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 .button-body {
   color: #fff;
   background-color: #4356ff;
@@ -55,7 +70,6 @@ footer {
   padding: 0 5px;
   display: none;
 }
-
 .nav-link {
   display: flex;
   justify-content: space-between;
@@ -266,14 +280,6 @@ footer {
 }
 .img-logo-1 {
   width: 300px;
-}
-footer h3 {
-  padding: 15px;
-  color: white;
-}
-footer p {
-  padding: 15x;
-  color: white;
 }
 .div-logos {
   display: flex;
