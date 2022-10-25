@@ -5,3 +5,5 @@ Somos un grupo de 5 estudiantes de la carrera de Ciencias de la Computación de 
 Misión: La misión de “Tech Academy” es convertirse en una aplicación indispensable para los estudiantes que se preparan para realizar el examen de admisión de distintas universidades. Teniendo clases de calidad y mostrando el progreso que está teniendo cada usuario, de ese modo se podrá evaluar su rendimiento en cada curso.
 
 Visión: Ser la aplicación más completa y utilizada de preparación para todos los estudiantes que están culminando su etapa escolar y/o personas que deseen postular a la universidad.
+
+![Image text](https://github.com/Erick832/my_assets/blob/main/1666741434189.png)
